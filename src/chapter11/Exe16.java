@@ -1,6 +1,5 @@
 package chapter11;
 
-import java.awt.TextField;
 import java.util.Collections;
 import java.util.Set;
 import java.util.TreeSet;
@@ -25,8 +24,8 @@ public class Exe16 {
 	}
 
 	public static void main(String[] args) {
-		Set<String> words = new TreeSet<>("SetOperations.java", "\\W+"));
-		System.out.println(words);
-		vowelCounter(words);
+//		Set<String> words = new TreeSet<>("SetOperations.java", "\\W+"));
+//		System.out.println(words);
+//		vowelCounter(words);
 	}
 }

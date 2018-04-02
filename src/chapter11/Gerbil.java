@@ -7,8 +7,12 @@ public class Gerbil {
 	public Gerbil(){
 		gerbilNumber = 0;
 	}
+	public Gerbil(Integer i) {
+		gerbilNumber = i;
+	}
 	public int hop() {
-		return 5;
+		System.out.println("gerbil " + gerbilNumber + " hops");
+		return gerbilNumber;
 	}
 	public static void main(String[] args) {
 		ArrayList<Gerbil> gerbils = new ArrayList<Gerbil>();
